@@ -4,6 +4,7 @@ go 1.13
 
 require (
 	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
+	github.com/dmolavi/drivers v0.0.0-20191222193325-777f5c6a0244
 	github.com/dustin/go-humanize v1.0.0
 	github.com/go-ole/go-ole v1.2.4 // indirect
 	github.com/google/go-querystring v1.0.0 // indirect
@@ -13,12 +14,12 @@ require (
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
 	github.com/prometheus/client_golang v1.2.1
 	github.com/reef-pi/adafruitio v0.0.0-20171007064130-a3cae37cdd64
-	github.com/reef-pi/drivers v0.0.0-20191124084039-bd164636cb55
 	github.com/reef-pi/hal v0.0.0-20191003050343-8c77d92fe39a
 	github.com/reef-pi/rpi v0.0.0-20191003051100-f2908459e401
 	github.com/robfig/cron/v3 v3.0.0
 	github.com/shirou/gopsutil v2.19.11+incompatible
 	go.etcd.io/bbolt v1.3.3
 	golang.org/x/sys v0.0.0-20191118133127-cf1e2d577169 // indirect
+	golang.org/x/tools v0.0.0-20191220234730-f13409bbebaf // indirect
 	gopkg.in/yaml.v2 v2.2.7
 )
